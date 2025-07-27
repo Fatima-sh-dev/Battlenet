@@ -1,0 +1,23 @@
+{
+  "name": "battlenet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "scss": "sass --watch scss/main.scss:css/main.css",
+    "scssMinify": "sass --watch scss/main.scss:css/main.css --style=compressed",
+    "setting": "sass --watch scss/setting/setting.scss:css/setting/setting.css --style=compressed",
+    "xxl": "sass --watch scss/xxl/xxl.scss:css/xxl/xxl.css --style=compressed",
+    "md": "sass --watch scss/md/md.scss:css/md/md.css --style=compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "swiper": "^11.2.7"
+  },
+  "devDependencies": {
+    "sass": "^1.89.2",
+    "scss": "^0.2.4"
+  }
+}

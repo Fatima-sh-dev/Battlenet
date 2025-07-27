@@ -1,0 +1,40 @@
+
+@media only screen and (min-width: 992px) {  @for $i from 1 through 12 {
+    .col-lg-#{$i} {
+      width: 8.333333% * $i;
+    }
+    .offset-lg-#{$i} {
+      margin-left: 8.333333% * $i;
+    }
+  }
+}
+@media only screen and (max-width: 991px) {
+  @for $i from 1 through 12 {
+    .col-md-#{$i} {
+      width: 8.333333% * $i;
+    }
+    .offset-md-#{$i} {
+      margin-left: 8.333333% * $i;
+    }
+  }
+}
+// @media only screen and (min-width: 560px) and (max-width: 768px) {
+//   @for $i from 1 through 12 {
+//     .col-sm-#{$i} {
+//       width: 8.333333% * $i;
+//     }
+//     .offset-sm-#{$i} {
+//       margin-left: 8.333333% * $i;
+//     }
+//   }
+// }
+// @media only screen and (max-width: 560px) {
+//   @for $i from 1 through 12 {
+//     .col-xs-#{$i} {
+//       width: 8.333333% * $i;
+//     }
+//     .offset-xs-#{$i} {
+//       margin-left: 8.333333% * $i;
+//     }
+//   }
+// }
